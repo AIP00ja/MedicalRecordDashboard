@@ -70,6 +70,12 @@ export default function LoginPage() {
         >
           Login
         </button>
+         <p className="text-center mt-4 text-sm">
+  Create Account?{" "}
+  <a href="/signup" className="text-blue-600 hover:underline font-medium">
+    Signup here
+  </a>
+</p>
       </form>
     </div>
   );
