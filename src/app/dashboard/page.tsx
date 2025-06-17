@@ -16,7 +16,7 @@ export default function DashboardPage() {
   const [showDropdown, setShowDropdown] = useState(false);
 
 
-  const api = "http://localhost:5253"; // Change this to your Render URL later
+  const api = "https://medicalrecordbackend.onrender.com";
 
   useEffect(() => {
     const email = localStorage.getItem("userEmail");

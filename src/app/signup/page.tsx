@@ -25,7 +25,7 @@ export default function SignupPage() {
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     try {
-      const response = await axios.post("http://localhost:5253/api/auth/signup", formData, {
+      const response = await axios.post("https://medicalrecordbackend.onrender.com/api/auth/signup", formData, {
         headers: {
           "Content-Type": "application/json",
         },
