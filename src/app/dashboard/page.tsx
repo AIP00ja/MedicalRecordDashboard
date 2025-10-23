@@ -14,8 +14,7 @@ export default function DashboardPage() {
   const [profileImagePath, setProfileImagePath] = useState("");
   const [profileImage, setProfileImage] = useState<File | null>(null);
   const [showDropdown, setShowDropdown] = useState(false);
-
-
+  
   const api = "https://medicalrecordbackend.onrender.com";
 
   useEffect(() => {
